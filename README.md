@@ -3,6 +3,10 @@ Run the npm bin of the self project with a simple cli
 
 # It is still incomplete.
 
+# compatibility
+- Unix compatible system
+- Only execute node yet
+
 # Install
 ```sh
 npm i sepalang/mybin
@@ -11,7 +15,7 @@ npm i sepalang/mybin
 # Usage
 In package.json
 
-> bin/mynode.js
+> bin/myargv.js
 ```js
 #!/usr/bin/env node
 console.log(process.argv[2]);
@@ -20,16 +24,16 @@ console.log(process.argv[2]);
 ```json
 {
   "bin":{
-    "mynode":"bin/mynode.js"
+    "mybintest":"bin/myargv.js"
   },
   "scripts":{
-    "test:mynode":"mybin mynode 'Hello world!'"
+    "test":"mybin mybintest Hello world!"
   }
 }
 ```
 
 ```diff
-- npm run test:mynode
-+ Hello world!
+- npm run test
++ ["Hello", "world!"]
 ```
 
