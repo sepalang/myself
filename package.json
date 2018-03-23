@@ -1,0 +1,31 @@
+{
+  "name": "mybin",
+  "version": "0.0.1",
+  "description": "Run the npm bin of the self project with a simple cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepalang/mybin.git"
+  },
+  "bin": {
+    "mybin": "bin/mybin.js"
+  },
+  "keywords": [
+    "bin",
+    "cli",
+    "npm",
+    "run"
+  ],
+  "author": "AHN HO JUNG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sepalang/mybin/issues"
+  },
+  "homepage": "https://github.com/sepalang/mybin#readme",
+  "dependencies": {
+    "package.root": "^1.0.3"
+  }
+}
