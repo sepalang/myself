@@ -16,9 +16,10 @@ In package.json
 > bin/myargv.js
 ```js
 #!/usr/bin/env node
-console.log(process.argv[2]);
+console.log(`🎙️  This is your arvs ${ JSON.stringify(process.argv) }`)
 ```
 
+> package.json
 ```json
 {
   "bin":{
@@ -30,8 +31,9 @@ console.log(process.argv[2]);
 }
 ```
 
+> In shell
 ```diff
-- npm run test
-+ ["Hello", "world!"]
++ npm run test
+🚀 Execute mybin : myargv Hello world
+🎙️  This is your arvs ["/Users/naver/.nvm/versions/node/v8.9.4/bin/node","/Users/naver/git/mybin/bin/myargv.js","Hello","world"]
 ```
-
