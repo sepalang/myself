@@ -23,10 +23,10 @@ console.log(`🎙️  This is your arvs ${ JSON.stringify(process.argv) }`)
 ```json
 {
   "bin":{
-    "myargv":"bin/myargv.js"
+    "argv":"bin/myargv.js"
   },
   "scripts":{
-    "test":"my myargv Hello world!"
+    "test":"my argv Hello world!"
   }
 }
 ```
