@@ -1,6 +1,6 @@
 {
   "name": "mybin",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Run the npm bin of the self project with a simple cli",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/sepalang/mybin.git"
   },
   "bin": {
-    "mybin": "bin/mybin.js",
+    "my": "bin/mybin.js",
     "myargv": "bin/myargv.js"
   },
   "keywords": [
