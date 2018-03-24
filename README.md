@@ -16,7 +16,7 @@ In package.json
 > bin/myargv.js
 ```js
 #!/usr/bin/env node
-console.log(`🎙️  This is your arvs ${ JSON.stringify(process.argv) }`)
+console.log(`🎙️  This is your argv ${ JSON.stringify(process.argv) }`)
 ```
 
 > package.json
@@ -35,5 +35,5 @@ console.log(`🎙️  This is your arvs ${ JSON.stringify(process.argv) }`)
 ```diff
 + npm run test
 🚀 Execute mybin : myargv Hello world
-🎙️  This is your arvs ["/Users/user/.nvm/versions/node/v8.9.4/bin/node","/Users/user/git/mybin/bin/myargv.js","Hello","world"]
+🎙️  This is your argv ["/Users/user/.nvm/versions/node/v8.9.4/bin/node","/Users/user/git/mybin/bin/myargv.js","Hello","world"]
 ```
