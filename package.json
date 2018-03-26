@@ -1,10 +1,11 @@
 {
-  "name": "mybin",
-  "version": "0.1.0",
+  "name": "myself",
+  "version": "0.2.0",
   "description": "Run the npm bin of the self project with a simple cli",
-  "main": "index.js",
+  "main": "dist/myself.js",
   "scripts": {
-    "test": "node bin/mybin.js myargv Hello world"
+    "test:argv": "node bin/mybin.js myargv Hello world",
+    "test:self": "node bin/mybin.js myself Hello world"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,8 @@
   },
   "bin": {
     "my": "bin/mybin.js",
-    "myargv": "bin/myargv.js"
+    "myargv": "bin/myargv.js",
+    "myself": "bin/mypkg.js"
   },
   "keywords": [
     "bin",
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/sepalang/mybin#readme",
   "dependencies": {
+    "minimist": "^1.2.0",
     "package.root": "^1.0.3"
   }
 }

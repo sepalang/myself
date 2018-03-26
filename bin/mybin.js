@@ -19,13 +19,15 @@ if(!argv.length){
     process.exit(1)
   }
   
+  const nodeArgs = [path.resolve(__root,module)].concat(args)
   
-  const nodeArgs = [path.resolve(__root,module)].concat(args);
   console.log(`🚀 Execute mybin : ${argv[0]} ${args.join(' ')}`)
+  
   const mybin    = spawn("node",nodeArgs);
   mybin.stdout.on('data',(data)=>console.log(data.toString()))
   mybin.stderr.on('data',(data)=>console.log(data.toString()))
   mybin.on('close', (code)=>{
-    process.exit(code);
+    console.log(`🥅 Process close mybin [code=${code}]`)
+    process.exit(code)
   })
 }
