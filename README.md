@@ -8,7 +8,7 @@
 
 ## Install
 ```sh
-npm install --save-dev sepalang/mybin 
+npm install --save-dev sepalang/myself 
 ```
 
 ## Usage
