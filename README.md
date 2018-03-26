@@ -65,8 +65,8 @@ console.log(myself);
   },
   "name": "myself",
   "directory": "mybin",
-  "deployPath": "/Users/naver/git",
-  "path": "/Users/naver/git/mybin",
+  "deployPath": "/Users/user/git",
+  "path": "/Users/user/git/mybin",
   "package": {
     "name": "myself",
     "version": "0.2.0",
