@@ -1,16 +1,17 @@
-# mybin
-Run the npm bin of the self project with a simple cli
+# myself
+- Run the npm bin of the self project with a simple cli
+- Can check the information about package setting and execution.
 
-# compatibility
+## compatibility
 - Unix compatible system
 - Only execute node yet
 
-# Install
+## Install
 ```sh
 npm install --save-dev sepalang/mybin 
 ```
 
-# Usage
+## Usage
 In package.json
 
 > bin/myargv.js
