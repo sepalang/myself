@@ -42,7 +42,7 @@ console.log(`🎙️  This is your argv ${ JSON.stringify(process.argv) }`)
 ```
 
 ### information about package
-```
+```js
 const myself = require('myself')
 console.log(myself);
 /*
