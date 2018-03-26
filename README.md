@@ -12,6 +12,8 @@ npm install --save-dev sepalang/mybin
 ```
 
 ## Usage
+
+### package run script
 In package.json
 
 > bin/myargv.js
@@ -37,4 +39,38 @@ console.log(`🎙️  This is your argv ${ JSON.stringify(process.argv) }`)
 + npm run test
 🚀 Execute mybin : myargv Hello world
 🎙️  This is your argv ["/Users/user/.nvm/versions/node/v8.9.4/bin/node","/Users/user/mybin/bin/myargv.js","Hello","world"]
+```
+
+### information about package
+```
+const myself = require('myself')
+console.log(myself);
+/*
+{
+  "argv": [
+    "/Users/naver/.nvm/versions/node/v8.9.4/bin/node",
+    "/Users/naver/git/mybin/bin/mypkg.js",
+    "Hello",
+    "world"
+  ],
+  "argv2": [
+    "Hello",
+    "world"
+  ],
+  "args": {
+    "_": [
+      "Hello",
+      "world"
+    ]
+  },
+  "name": "myself",
+  "directory": "mybin",
+  "deployPath": "/Users/naver/git",
+  "path": "/Users/naver/git/mybin",
+  "package": {
+    "name": "myself",
+    "version": "0.2.0",
+  ...
+*/
+
 ```
