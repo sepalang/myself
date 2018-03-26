@@ -7,7 +7,7 @@ Run the npm bin of the self project with a simple cli
 
 # Install
 ```sh
-npm i sepalang/mybin
+npm install --save-dev sepalang/mybin 
 ```
 
 # Usage
