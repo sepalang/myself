@@ -4,7 +4,7 @@ const spawn       = require('child_process').spawn
 const packageRoot = require('package.root')
 const __root      = packageRoot.path
 const path        = require('path')
-const bins        = packageRoot.package.bin;
+const bins        = packageRoot.package.bin
 
 
 if(!argv.length){

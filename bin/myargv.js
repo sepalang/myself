@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log(`🎙️  This is your arvs ${ JSON.stringify(process.argv) }`)
+console.log(`🎙️  arvs-cli ${ JSON.stringify(process.argv) }`)
