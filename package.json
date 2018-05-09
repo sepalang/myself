@@ -1,6 +1,6 @@
 {
-  "name": "myself",
-  "version": "0.2.0",
+  "name": "@sepalang/myself",
+  "version": "0.2.1",
   "description": "Run the npm bin of the self project with a simple cli",
   "main": "dist/myself.js",
   "scripts": {
