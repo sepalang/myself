@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba38bca9758b43ab813de5cfcbca288a)](https://www.codacy.com/app/labeldock/myself?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sepalang/myself&amp;utm_campaign=Badge_Grade)
+
 # myself
 - Run the npm bin of the self project with a simple cli
 - Can check the information about package setting and execution.
