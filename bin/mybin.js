@@ -23,9 +23,7 @@ if(!argv.length){
   
   console.log(`🚀 Execute mybin : ${argv[0]} ${args.join(' ')}`)
   
-  const mybin    = spawn("node",nodeArgs);
-  mybin.stdout.on('data',(data)=>console.log(data.toString()))
-  mybin.stderr.on('data',(data)=>console.log(data.toString()))
+  const mybin = spawn("node",nodeArgs,{stdio:[ process.stdin, process.stdout, process.stderr ]});
   mybin.on('close', (code)=>{
     console.log(`🥅 Process close mybin [code=${code}]`)
     process.exit(code)
