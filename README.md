@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/sepalang/myself/tree/master.svg?style=shield)](https://circleci.com/gh/sepalang/myself/tree/master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9b405db76098471792847acbc6025bcb)](https://www.codacy.com/app/labeldock/myself?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sepalang/myself&amp;utm_campaign=Badge_Grade)
 
 # myself
