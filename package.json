@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/sepalang/mybin#readme",
   "dependencies": {
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "package.root": "^1.0.3"
   }
 }
